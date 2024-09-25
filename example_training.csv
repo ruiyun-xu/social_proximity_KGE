@@ -1,0 +1,7 @@
+subject,predicate,object
+Alice,lives_in,Paris
+Bob,lives_in,London
+Charlie,lives_in,Paris
+Alice,works_for,CompanyX
+Bob,works_for,CompanyY
+Charlie,works_for,CompanyX
