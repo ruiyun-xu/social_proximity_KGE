@@ -35,7 +35,7 @@ pip install pykeen pandas numpy torch
 ```
 
 ## Files
-- `example_training.csv`: A CSV file containing the training data in the form of triples (subject, predicate, object), for example, (Alice works_for CompanyX).
+- `example_training.csv`: A CSV file containing the training data in the form of triples (subject, predicate, object), for example, (Alice, works_for, CompanyX).
 - `social_proximity_kge.py`: A Python script implementing the social proximity measure. It can be executed using any Python IDE.
 - `social_proximity_KGE.ipynb`: A Jupyter Notebook with the social proximity implementation. It can be run using Jupyter Lab, Google Colab, or any Jupyter-compatible environment.
 
