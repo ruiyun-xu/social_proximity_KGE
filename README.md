@@ -5,7 +5,7 @@
 This repository provides a Python implementation of a novel pairwise social proximity measure based on the Knowledge Graph Embedding (KGE) approach, specifically using the TransE model from the PyKEEN library. The code includes functions for training the TransE model on a graph represented by triples (subject, predicate, object) and calculating social proximity scores between pairs of entities based on their embeddings.
 
 ## Definition of Our Proposed Social Proximity Measure
-Our proposed social proximity measure, named Entity Proximity, is defined as:
+Our proposed social proximity measure, named Entity Proximity, is defined as cosine similarity between two entity embeddings:
 
 $` \text{Entity Proximity} = \frac{e_1 \cdot e_2^T}{||e_1|| ||e_2||} = \frac{\sum_{m=1}^{M} e_{1,m} e_{2,m}}{\sqrt{\sum_{m=1}^{M} \left(e_{1,m}\right)^2} \sqrt{\sum_{m=1}^{M} \left(e_{2,m}\right)^2}} `$
 
