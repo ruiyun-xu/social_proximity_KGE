@@ -13,7 +13,7 @@ import numpy as np
 import torch
 
 
-# Specify data paths for training and testing data
+# Specify data path for training data
 training_data_path = 'example_training.csv'
 
 # Train the TransE model using the training data
